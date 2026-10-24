@@ -8,6 +8,8 @@ h2 { font-size: 1.15rem; margin-top: 2rem; }
 .tldr { border-left: 4px solid #4a90d9; padding: 0.75rem 1rem; margin: 1.5rem 0;
         background: rgba(74,144,217,0.08); border-radius: 0 6px 6px 0; }
 a { color: #1f64ad; }
+nav { font-size: 0.9rem; }
+nav a[aria-current="page"] { color: inherit; font-weight: 600; text-decoration: none; }
 
 /* Home page: browser-default title size and a shorter bottom padding. */
 body.home { padding-bottom: 2rem; }
